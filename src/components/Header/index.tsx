@@ -4,7 +4,7 @@ export function Header() {
     return(
         <Container>
             <div>
-                Logo
+                <img src="../../assets/logo.png" alt="logo" />
             </div>
             <nav>
                 <ul>
