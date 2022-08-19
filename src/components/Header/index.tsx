@@ -4,24 +4,16 @@ export function Header() {
     return(
         <Container>
             <div>
-                <img src="../../assets/logo.png" alt="logo" />
+                <h1>
+                    <a href="">Logo</a>
+                </h1>
+                <nav>
+                    <a href="">Inicio</a>
+                    <a href="">Sobre mim</a>
+                    <a href="">Projetos</a>
+                    <a href="">Habilidades</a>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="">Sobre mim</a>
-                    </li>
-                    <li>
-                        <a href="">Projetos</a>
-                    </li>
-                    <li>
-                        <a href="">Habilidades</a>
-                    </li>
-                </ul>
-            </nav>
         </Container>
     )
 }

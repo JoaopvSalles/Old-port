@@ -9,4 +9,16 @@ export const GlobalStyle = createGlobalStyle`
 
     box-sizing: border-box;
   }
+
+  :root {
+    --white: #ffffff;
+
+    --gray-700: #282a36;
+    
+    --blue-700: #383a59;
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+  }
 `
