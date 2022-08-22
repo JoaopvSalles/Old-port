@@ -5,13 +5,15 @@ export function Header() {
         <Container>
             <div>
                 <h1>
-                    <a href="">Logo</a>
+                    <a href="#">
+                        <img src="../assets/logo.png" alt="img" />
+                    </a>
                 </h1>
                 <nav>
-                    <a href="">Inicio</a>
-                    <a href="">Sobre mim</a>
-                    <a href="">Projetos</a>
-                    <a href="">Habilidades</a>
+                    <a href="#start">Inicio</a>
+                    <a href="#about">Sobre mim</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#skills">Habilidades</a>
                 </nav>
             </div>
         </Container>

@@ -1,5 +1,9 @@
+import { About } from './components/About'
+import { Footer } from './components/Footer'
 import { Header } from './components/Header'
-import { Inicio } from './components/Inicio'
+import { Projects } from './components/Projects'
+import { Skills } from './components/Skills'
+import { Start } from './components/Start'
 
 import { GlobalStyle } from './global'
 
@@ -7,7 +11,11 @@ export function App() {
   return (
     <>
       <Header />
-      <Inicio />
+      <Start />
+      <About />
+      <Projects />
+      <Skills />
+      <Footer />
       
       <GlobalStyle />
     </>

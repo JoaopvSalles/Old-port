@@ -8,7 +8,9 @@ export const Container = styled.header`
     margin: auto;
     border-radius: 0 0 15px 15px;
     display: flex;
+    align-items: center;
     justify-content: center;
+    opacity: 0.9;
 
     background-color: var(--gray-700);
     box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
