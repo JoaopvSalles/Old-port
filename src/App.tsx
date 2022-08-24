@@ -1,9 +1,9 @@
-import { About } from './components/About'
-import { Footer } from './components/Footer'
-import { Header } from './components/Header'
-import { Projects } from './components/Projects'
-import { Skills } from './components/Skills'
-import { Start } from './components/Start'
+import { About } from './pages/About'
+import { Footer } from './pages/Footer'
+import { Header } from './pages/Header'
+import { Projects } from './pages/Projects'
+import { Techs } from './pages/Techs'
+import { Start } from './pages/Start'
 
 import { GlobalStyle } from './global'
 
@@ -14,7 +14,7 @@ export function App() {
       <Start />
       <About />
       <Projects />
-      <Skills />
+      <Techs />
       <Footer />
       
       <GlobalStyle />

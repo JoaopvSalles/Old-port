@@ -1,3 +1,5 @@
+import profile from '../../assets/profile.jpg'
+
 import { Container } from "./styles";
 
 export function Start() {
@@ -5,11 +7,11 @@ export function Start() {
         <Container id="start">
             <div>
                 <span>
-                    Olá! 👋🏻 Me chamo. <br />
+                    Olá!👋🏻 Me chamo <br />
                     <strong>João Paulo</strong> <br />
                     Desenvolvedor Front-end.
                 </span>
-                <img src="" alt="Foto" />
+                <img src={profile} alt="Foto" />
             </div>
         </Container>
     )
