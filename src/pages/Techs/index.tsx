@@ -4,7 +4,7 @@ export function Techs() {
     return(
         <Container id="techs">
             <div>
-                <p><span>&lt;</span> Habilidades <span>/&gt;</span></p>
+                <h2><span>&lt;</span> Habilidades <span>/&gt;</span></h2>
             </div>
         </Container>
     )

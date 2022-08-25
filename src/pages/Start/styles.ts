@@ -15,8 +15,7 @@ export const Container = styled.div`
     align-items: center;
     
     div {
-        max-width: 1120px;
-        width: 90%;
+        width: 65%;
         margin: auto;
         display: flex;
         align-items: center;
@@ -26,15 +25,31 @@ export const Container = styled.div`
             font-size: 2rem;
             color: var(--white);
 
-            strong {
-                font-size: 4.25rem;
-                color: var(--cyan);
+            nav {
+                margin-bottom: 50px;
+
+                strong {
+                    font-size: 4.25rem;
+                    color: var(--cyan);
+                }
+            }
+
+            a {
+                display: block;
+
+                text-decoration: none;
+                color: var(--white);
+                background-color: var(--gray-700);
+                border-radius: 40px;
+
+                text-align: center;
+                padding: 1rem 0;
             }
         }
 
         img {
-            width: 20rem;
-            height: 20rem;
+            width: 22rem;
+            height: 22rem;
             border-radius: 50%;
             border: 3px solid var(--cyan);
         }

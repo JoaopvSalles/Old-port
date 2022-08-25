@@ -7,9 +7,13 @@ export function Start() {
         <Container id="start">
             <div>
                 <span>
-                    Olá!👋🏻 Me chamo <br />
-                    <strong>João Paulo</strong> <br />
-                    Desenvolvedor Front-end.
+                    <nav>
+                        Olá!👋🏻 Me chamo <br />
+                        <strong>João Paulo</strong> <br />
+                        Desenvolvedor Front-end. <br />
+                    </nav>
+                    <a href="">LinkedIn</a> <br />
+                    <a href="">Github</a>
                 </span>
                 <img src={profile} alt="Foto" />
             </div>

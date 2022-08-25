@@ -6,11 +6,27 @@ export const Container = styled.div`
     border: 3px solid rgba(114,114,126,.2);
 
     margin: auto;
-
     margin-top: 12rem;
 
-    height: 37.5rem;
+    min-height: 37.5rem;
     width: 80%;
     display: flex;
-    align-items: center;
+
+    color: var(--white);
+
+    div {
+        margin: 0 auto;
+        padding-top: 1rem;
+        width: 70%;
+
+        h2 {
+            text-align: center;
+            font-size: 3.75rem;
+            margin-bottom: 3rem;
+
+            span {
+                color: var(--cyan);
+            }
+        }
+    }
 `

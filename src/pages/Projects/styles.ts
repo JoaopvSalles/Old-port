@@ -6,7 +6,6 @@ export const Container = styled.div`
     border: 3px solid rgba(114,114,126,.2);
 
     margin: auto;
-
     margin-top: 12rem;
 
     min-height: 37.5rem;
