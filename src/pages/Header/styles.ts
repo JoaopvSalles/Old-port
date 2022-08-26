@@ -15,7 +15,7 @@ export const Container = styled.header`
     background-color: var(--gray-700);
     border-bottom: 3px solid rgba(114,114,126,.2);
     box-shadow: 0 5px 10px 0 rgb(0 0 0 / 15%);
-
+    
     div {
         max-width: 1280px;
         width: 90%;

@@ -39,11 +39,19 @@ export const Container = styled.div`
 
                 text-decoration: none;
                 color: var(--white);
-                background-color: var(--gray-700);
+                background-color: var(--blue-400);
                 border-radius: 40px;
 
                 text-align: center;
                 padding: 1rem 0;
+
+                &:hover {
+                    background-color: var(--cyan);
+                    color: var(--gray-700);
+
+                    opacity: 0.9;
+                    transition: 500ms;
+                }
             }
         }
 

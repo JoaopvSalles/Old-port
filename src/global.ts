@@ -23,6 +23,8 @@ export const GlobalStyle = createGlobalStyle`
     --gray-200: #c4c4c4;
     --gray-700: #282a36;
     
+    --blue-400: #5E608A;
+    --blue-500: #252BB0;
     --blue-700: #383a59;
 
     --green-300: #50fa7b;
@@ -43,5 +45,7 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
 
     background-color: var(--gray-700);
+
+    font-family: 'Roboto', sans-serif;
   }
 `

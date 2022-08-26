@@ -59,6 +59,14 @@ export const Container = styled.div`
             padding: 0.3rem;
             height: 1.8rem;
             width: 6.25rem;
+
+            cursor: pointer;
+
+            &:hover {
+                background-color: black;
+
+                transition: 200ms;
+            }
         }
     }
 `
