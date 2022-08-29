@@ -36,14 +36,16 @@ export const Container = styled.div`
             text-align: center;
 
             a {
-                color: var(--white);
                 background-color: var(--gray-200);
                 border-radius: 20px;
-                text-decoration: none;
                 margin: auto;
-
                 height: 11rem;
                 width: 18rem;
+                
+                color: var(--gray-700);
+                font-size: 1.5rem;
+                text-decoration: none;
+                font-family: 'Kanit', sans-serif;
             }
         }
 

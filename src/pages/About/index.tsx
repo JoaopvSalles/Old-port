@@ -5,9 +5,13 @@ export function About() {
         <Container id="about">
             <div>
                 <h2><span>&lt;</span> Sobre mim <span>/&gt;</span></h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque modi placeat incidunt veniam quas rem, perferendis quod unde at impedit! Quod facere repellendus aperiam sapiente veniam quia reiciendis ullam ea.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quod, officia ratione consequuntur quam totam facilis ab magni quasi consectetur culpa nobis consequatur vel qui dolorum eos quibusdam ad asperiores.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus hic consectetur labore porro distinctio dolores, eligendi veritatis recusandae illo enim voluptates dicta, nulla quaerat natus aspernatur ullam repudiandae, non mollitia!
+                <p>
+                    Meu nome é João Paulo sou um apaixonado por tecnologia e estou buscando uma oportunidade para ingressar no mercado de programação.
+                    Estou em constante evolução, estudando e desenvolvendo projetos todos os dias, criei este portfolio com o intuito de demonstrar meus conhecimentos e o que venho aprendendo.
+                </p>
+                < br />
+                <p>
+                    Desenvolvedor | React / Typescript / Javascript / HTML / CSS
                 </p>
             </div>
         </Container>

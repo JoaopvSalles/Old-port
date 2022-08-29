@@ -8,7 +8,7 @@ export function Header() {
             <div>
                 <h1>
                     <a href="#">
-                        <img src={logo} alt="" />
+                        JP
                     </a>
                 </h1>
                 <nav>

@@ -23,7 +23,7 @@ export const Container = styled.div`
         h2 {
             text-align: center;
             font-size: 3.75rem;
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
 
             span {
                 color: var(--cyan);
@@ -31,7 +31,7 @@ export const Container = styled.div`
         }
 
         p {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             text-align: center;
         }
     }

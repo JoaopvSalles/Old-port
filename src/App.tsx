@@ -7,6 +7,8 @@ import { Start } from './pages/Start'
 
 import { GlobalStyle } from './global'
 
+alert('⚠ PORTIFOLIO EM CONSTRUÇÂO! ⚠')
+
 export function App() {
   return (
     <>

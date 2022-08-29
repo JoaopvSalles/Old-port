@@ -30,11 +30,7 @@ export const Container = styled.header`
             a {
                 text-decoration: none;
                 color: var(--white);
-
-                img {
-                    height: 50px;
-                    width: 100px;
-                }
+                font-family: 'Monoton', cursive;
             }
         }
 

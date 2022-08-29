@@ -14,18 +14,31 @@ export const Container = styled.div`
 
     color: var(--white);
 
-    div {
+    div.card {
         margin: 0 auto;
         padding-top: 1rem;
-        width: 70%;
+        width: 50%;
 
         h2 {
             text-align: center;
             font-size: 3.75rem;
-            margin-bottom: 3rem;
+            margin-bottom: 5rem;
 
             span {
                 color: var(--cyan);
+            }
+        }
+
+        div.img {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5rem;
+
+
+            img {
+                height: 6rem;
+                width: 6rem;
+                margin: auto;
             }
         }
     }
