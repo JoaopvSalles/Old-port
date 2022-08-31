@@ -46,6 +46,20 @@ export const Container = styled.div`
                 font-size: 1.5rem;
                 text-decoration: none;
                 font-family: 'Kanit', sans-serif;
+
+                &:hover {
+                    cursor: not-allowed;
+                }
+
+                img {
+                    height: 11rem;
+                    width: 18rem;
+                    border-radius: 15px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
             }
         }
 

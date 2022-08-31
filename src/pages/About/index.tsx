@@ -10,6 +10,7 @@ export function About() {
                     Estou em constante evolução, estudando e desenvolvendo projetos todos os dias, criei este portfólio com o intuito de demonstrar meus conhecimentos e o que venho aprendendo.
                 </p>
                 < br />
+                < br />
                 <p>
                     Desenvolvedor | React / Typescript / Javascript / HTML / CSS
                 </p>

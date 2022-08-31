@@ -9,7 +9,7 @@ export const Container = styled.div`
     margin: auto;
     margin-top: 12rem;
 
-    height: 37.5rem;
+    min-height: 37.5rem;
     width: 80%;
     display: flex;
     align-items: center;
@@ -26,7 +26,7 @@ export const Container = styled.div`
             color: var(--white);
 
             nav {
-                margin-bottom: 50px;
+                margin-bottom: 2rem;
 
                 strong {
                     font-size: 4.25rem;
@@ -61,5 +61,38 @@ export const Container = styled.div`
             border-radius: 50%;
             border: 3px solid var(--cyan);
         }
+    }
+
+
+    @media (max-width: 1600px) {
+
+    }
+
+
+    @media (max-width: 1024px) {
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                margin-bottom: 2rem;
+                font-size: 1.5rem;
+
+                nav {
+
+                    strong {
+                        font-size: 3rem;
+                    }
+                }
+
+            }
+
+            img {
+                width: 12rem;
+                height: 12rem;
+            }
+        }
+        
     }
 `

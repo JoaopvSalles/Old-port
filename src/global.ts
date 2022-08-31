@@ -7,8 +7,6 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     border: none;
     box-sizing: border-box;
-
-    scroll-behavior: smooth;
   }
 
   :target {
@@ -33,8 +31,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html {
+    scroll-behavior: smooth;
+
     @media (max-width: 1080px) {
-        font-size: 93.75%; // 15px
+      font-size: 93.75%; // 15px
     }
     @media (max-width: 720px) {
         font-size: 87.5%; // 14px
