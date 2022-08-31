@@ -70,7 +70,7 @@ Error generating stack: `+o.message+`
         h2 {
             text-align: center;
             font-size: 3.75rem;
-            margin-bottom: 3rem;
+            margin-bottom: 4rem;
 
             span {
                 color: var(--cyan);
@@ -78,7 +78,7 @@ Error generating stack: `+o.message+`
         }
 
         p {
-            font-size: 1.5rem;
+            font-size: 1.6rem;
             text-align: center;
         }
     }
@@ -90,7 +90,7 @@ Error generating stack: `+o.message+`
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */var wm=st.exports,Sm=Symbol.for("react.element"),km=Symbol.for("react.fragment"),xm=Object.prototype.hasOwnProperty,Cm=wm.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,Pm={key:!0,ref:!0,__self:!0,__source:!0};function nd(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)xm.call(t,r)&&!Pm.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:Sm,type:e,key:o,ref:i,props:l,_owner:Cm.current}}No.Fragment=km;No.jsx=nd;No.jsxs=nd;(function(e){e.exports=No})(zo);const Am=zo.exports.Fragment,I=zo.exports.jsx,Ce=zo.exports.jsxs;function Em(){return I(ym,{id:"about",children:Ce("div",{children:[Ce("h2",{children:[I("span",{children:"<"})," Sobre mim ",I("span",{children:"/>"})]}),I("p",{children:"Meu nome \xE9 Jo\xE3o Paulo sou apaixonado por tecnologia e estou buscando uma oportunidade para ingressar no mercado de programa\xE7\xE3o. Estou em constante evolu\xE7\xE3o, estudando e desenvolvendo projetos todos os dias, criei este portf\xF3lio com o intuito de demonstrar meus conhecimentos e o que venho aprendendo."}),I("br",{}),I("p",{children:"Desenvolvedor | React / Typescript / Javascript / HTML / CSS"})]})})}const _m="/Portfolio/assets/github.d485fd1a.png",zm="/Portfolio/assets/linkedin.7dcbc614.png",Nm=Wn.div`
+ */var wm=st.exports,Sm=Symbol.for("react.element"),km=Symbol.for("react.fragment"),xm=Object.prototype.hasOwnProperty,Cm=wm.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,Pm={key:!0,ref:!0,__self:!0,__source:!0};function nd(e,t,n){var r,l={},o=null,i=null;n!==void 0&&(o=""+n),t.key!==void 0&&(o=""+t.key),t.ref!==void 0&&(i=t.ref);for(r in t)xm.call(t,r)&&!Pm.hasOwnProperty(r)&&(l[r]=t[r]);if(e&&e.defaultProps)for(r in t=e.defaultProps,t)l[r]===void 0&&(l[r]=t[r]);return{$$typeof:Sm,type:e,key:o,ref:i,props:l,_owner:Cm.current}}No.Fragment=km;No.jsx=nd;No.jsxs=nd;(function(e){e.exports=No})(zo);const Am=zo.exports.Fragment,I=zo.exports.jsx,Ce=zo.exports.jsxs;function Em(){return I(ym,{id:"about",children:Ce("div",{children:[Ce("h2",{children:[I("span",{children:"<"})," Sobre mim ",I("span",{children:"/>"})]}),I("p",{children:"Meu nome \xE9 Jo\xE3o Paulo sou apaixonado por tecnologia e estou buscando uma oportunidade para ingressar no mercado de programa\xE7\xE3o. Estou em constante evolu\xE7\xE3o, estudando e desenvolvendo projetos todos os dias, criei este portf\xF3lio com o intuito de demonstrar meus conhecimentos e o que venho aprendendo."}),I("br",{}),I("br",{}),I("p",{children:"Desenvolvedor | React / Typescript / Javascript / HTML / CSS"})]})})}const _m="/Portfolio/assets/github.d485fd1a.png",zm="/Portfolio/assets/linkedin.7dcbc614.png",Nm=Wn.div`
     background-color: var(--blue-700);
     border-top: 3px solid rgba(114,114,126,.2);
     border-radius: 15px 15px 0 0;
@@ -133,6 +133,11 @@ Error generating stack: `+o.message+`
                 }
             }
         }
+    }
+
+
+    @media (max-width: 1024px) {
+        bottom: 0;
     }
 `;function Tm(){return I(Nm,{children:Ce("div",{children:[Ce("main",{children:[I("p",{children:"Email para contato: joaopaulovs2000@gmail.com"}),I("p",{children:"Feito com \u{1F499} por Jo\xE3o Paulo"})]}),Ce("nav",{children:[I("a",{href:"https://www.linkedin.com/in/jo%C3%A3o-vecchio-175934130/",target:"_blank",children:I("img",{src:zm})}),I("a",{href:"https://github.com/JoaopvSalles",target:"_blank",children:I("img",{src:_m})})]})]})})}const Dm=Wn.header`
     top: 0;
@@ -186,7 +191,7 @@ Error generating stack: `+o.message+`
         }
     }
     
-`;function Om(){return I(Dm,{children:Ce("div",{children:[I("h1",{children:I("a",{href:"#",children:"JP"})}),Ce("nav",{children:[I("a",{href:"#start",children:"Inicio"}),I("a",{href:"#about",children:"Sobre mim"}),I("a",{href:"#projects",children:"Projetos"}),I("a",{href:"#techs",children:"Tecnologias"})]})]})})}const Im=Wn.div`
+`;function Om(){return I(Dm,{children:Ce("div",{children:[I("h1",{children:I("a",{href:"#",children:"JP"})}),Ce("nav",{children:[I("a",{href:"#start",children:"Inicio"}),I("a",{href:"#about",children:"Sobre mim"}),I("a",{href:"#projects",children:"Projetos"}),I("a",{href:"#techs",children:"Tecnologias"})]})]})})}const Im="/Portfolio/assets/dtmoney.647a81e5.gif",Rm=Wn.div`
     background-color: var(--blue-700);
     border-radius: 15px;
     border: 3px solid rgba(114,114,126,.2);
@@ -232,6 +237,20 @@ Error generating stack: `+o.message+`
                 font-size: 1.5rem;
                 text-decoration: none;
                 font-family: 'Kanit', sans-serif;
+
+                &:hover {
+                    cursor: not-allowed;
+                }
+
+                img {
+                    height: 11rem;
+                    width: 18rem;
+                    border-radius: 15px;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
             }
         }
 
@@ -257,7 +276,7 @@ Error generating stack: `+o.message+`
             }
         }
     }
-`;function Rm(){return I(Im,{id:"projects",children:Ce("div",{children:[Ce("h2",{children:[I("span",{children:"<"})," Projetos ",I("span",{children:"/>"})]}),Ce("nav",{children:[I("a",{href:"",children:"Em breve"}),I("a",{href:"",children:"Em breve"}),I("a",{href:"",children:"Em breve"}),I("a",{href:"",children:"Em breve"}),I("a",{href:"",children:"Em breve"}),I("a",{href:"",children:"Em breve"})]}),I("p",{children:"Ver mais"})]})})}const $m="/Portfolio/assets/react.19291084.png",Lm="/Portfolio/assets/typescript.f01a041f.png",jm="/Portfolio/assets/js.6f70fb1b.png",Mm="/Portfolio/assets/html.b35dd2c0.png",Bm="/Portfolio/assets/css.059eb572.png",Fm="data:image/png;base64,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",Um=Wn.div`
+`;function $m(){return I(Rm,{id:"projects",children:Ce("div",{children:[Ce("h2",{children:[I("span",{children:"<"})," Projetos ",I("span",{children:"/>"})]}),Ce("nav",{children:[I("a",{href:"https://github.com/JoaopvSalles/dtmoney",target:"_blank",children:I("img",{src:Im})}),I("a",{href:"#projects",children:"Em breve"}),I("a",{href:"#projects",children:"Em breve"}),I("a",{href:"#projects",children:"Em breve"}),I("a",{href:"#projects",children:"Em breve"}),I("a",{href:"#projects",children:"Em breve"})]}),I("p",{children:"Ver mais"})]})})}const Lm="/Portfolio/assets/react.19291084.png",jm="/Portfolio/assets/typescript.f01a041f.png",Mm="/Portfolio/assets/js.6f70fb1b.png",Bm="/Portfolio/assets/html.b35dd2c0.png",Fm="/Portfolio/assets/css.059eb572.png",Um="data:image/png;base64,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",Hm=Wn.div`
     background-color: var(--blue-700);
     border-radius: 15px;
     border: 3px solid rgba(114,114,126,.2);
@@ -299,7 +318,7 @@ Error generating stack: `+o.message+`
             }
         }
     }
-`;function Hm(){return I(Um,{id:"techs",children:Ce("div",{className:"card",children:[Ce("h2",{children:[I("span",{children:"<"})," Tecnologias ",I("span",{children:"/>"})]}),Ce("div",{className:"img",children:[I("img",{src:$m}),I("img",{src:Lm}),I("img",{src:jm}),I("img",{src:Mm}),I("img",{src:Bm}),I("img",{src:Fm})]})]})})}const Vm="/Portfolio/assets/profile.47cdf09a.jpg",Qm=Wn.div`
+`;function Vm(){return I(Hm,{id:"techs",children:Ce("div",{className:"card",children:[Ce("h2",{children:[I("span",{children:"<"})," Tecnologias ",I("span",{children:"/>"})]}),Ce("div",{className:"img",children:[I("img",{src:Lm}),I("img",{src:jm}),I("img",{src:Mm}),I("img",{src:Bm}),I("img",{src:Fm}),I("img",{src:Um})]})]})})}const Qm="/Portfolio/assets/profile.47cdf09a.jpg",Wm=Wn.div`
     background-color: var(--blue-700);
     border-radius: 15px;
     border: 3px solid rgba(114,114,126,.2);
@@ -308,7 +327,7 @@ Error generating stack: `+o.message+`
     margin: auto;
     margin-top: 12rem;
 
-    height: 37.5rem;
+    min-height: 37.5rem;
     width: 80%;
     display: flex;
     align-items: center;
@@ -325,7 +344,7 @@ Error generating stack: `+o.message+`
             color: var(--white);
 
             nav {
-                margin-bottom: 50px;
+                margin-bottom: 2rem;
 
                 strong {
                     font-size: 4.25rem;
@@ -361,15 +380,46 @@ Error generating stack: `+o.message+`
             border: 3px solid var(--cyan);
         }
     }
-`;function Wm(){return I(Qm,{id:"start",children:Ce("div",{children:[Ce("span",{children:[Ce("nav",{children:["Ol\xE1! \u{1F44B}\u{1F3FB} Me chamo ",I("br",{}),I("strong",{children:"Jo\xE3o Paulo"})," ",I("br",{}),"Desenvolvedor Front-end. ",I("br",{})]}),I("a",{href:"https://www.linkedin.com/in/jo%C3%A3o-vecchio-175934130/",target:"_blank",children:"LinkedIn"})," ",I("br",{}),I("a",{href:"https://github.com/JoaopvSalles",target:"_blank",children:"Github"})]}),I("img",{src:Vm,alt:"Foto"})]})})}const Gm=gm`
+
+
+    @media (max-width: 1600px) {
+
+    }
+
+
+    @media (max-width: 1024px) {
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            span {
+                margin-bottom: 2rem;
+                font-size: 1.5rem;
+
+                nav {
+
+                    strong {
+                        font-size: 3rem;
+                    }
+                }
+
+            }
+
+            img {
+                width: 12rem;
+                height: 12rem;
+            }
+        }
+        
+    }
+`;function Gm(){return I(Wm,{id:"start",children:Ce("div",{children:[Ce("span",{children:[Ce("nav",{children:["Ol\xE1! \u{1F44B}\u{1F3FB} Me chamo ",I("br",{}),I("strong",{children:"Jo\xE3o Paulo"})," ",I("br",{}),"Desenvolvedor Front-end. ",I("br",{})]}),I("a",{href:"https://www.linkedin.com/in/jo%C3%A3o-vecchio-175934130/",target:"_blank",children:"LinkedIn"})," ",I("br",{}),I("a",{href:"https://github.com/JoaopvSalles",target:"_blank",children:"Github"})]}),I("img",{src:Qm,alt:"Foto"})]})})}const Ym=gm`
  
   * {
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
-
-    scroll-behavior: smooth;
   }
 
   :target {
@@ -394,8 +444,10 @@ Error generating stack: `+o.message+`
   }
 
   html {
+    scroll-behavior: smooth;
+
     @media (max-width: 1080px) {
-        font-size: 93.75%; // 15px
+      font-size: 93.75%; // 15px
     }
     @media (max-width: 720px) {
         font-size: 87.5%; // 14px
@@ -409,4 +461,4 @@ Error generating stack: `+o.message+`
 
     font-family: 'Roboto', sans-serif;
   }
-`;alert("\u26A0 PORTIFOLIO EM CONSTRU\xC7\xC2O! \u26A0");function Ym(){return Ce(Am,{children:[I(Om,{}),I(Wm,{}),I(Em,{}),I(Rm,{}),I(Hm,{}),I(Tm,{}),I(Gm,{})]})}ii.createRoot(document.getElementById("root")).render(I(Hn.StrictMode,{children:I(Ym,{})}));
+`;alert("\u26A0 PORTIFOLIO EM CONSTRU\xC7\xC2O! \u26A0");function Km(){return Ce(Am,{children:[I(Om,{}),I(Gm,{}),I(Em,{}),I($m,{}),I(Vm,{}),I(Tm,{}),I(Ym,{})]})}ii.createRoot(document.getElementById("root")).render(I(Hn.StrictMode,{children:I(Km,{})}));
