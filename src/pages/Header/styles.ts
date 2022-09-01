@@ -52,4 +52,10 @@ export const Container = styled.header`
         }
     }
     
+
+
+    // ===== Responsivo ===== //
+    @media (max-width: 1024px) {
+        
+    }
 `

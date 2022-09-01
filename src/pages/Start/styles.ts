@@ -64,6 +64,8 @@ export const Container = styled.div`
     }
 
 
+
+    // ===== Responsivo ===== //
     @media (max-width: 1600px) {
 
     }
@@ -74,6 +76,9 @@ export const Container = styled.div`
         div {
             display: flex;
             flex-direction: column;
+
+            width: 90%;
+            padding: 1rem;
 
             span {
                 margin-bottom: 2rem;

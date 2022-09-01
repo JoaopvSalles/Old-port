@@ -42,4 +42,25 @@ export const Container = styled.div`
             }
         }
     }
+
+
+    // ===== Responsivo ===== //
+    @media (max-width: 1024px) {
+
+        div.card {
+            width: 90%;
+            padding: 1rem;
+
+            h2 {
+                font-size: 2.2rem;
+                margin-bottom: 3rem;
+            }
+
+            div.img {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 4rem;
+            }
+        }
+    }
 `

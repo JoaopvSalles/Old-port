@@ -46,7 +46,12 @@ export const Container = styled.div`
     }
 
 
+    // ===== Responsivo ===== //
     @media (max-width: 1024px) {
-        bottom: 0;
+        height: 6rem;
+        
+        div {
+            margin: 0.5rem auto;
+        }
     }
 `

@@ -35,4 +35,24 @@ export const Container = styled.div`
             text-align: center;
         }
     }
+
+
+    // ===== Responsivo ===== //
+    @media (max-width: 1024px) {
+        
+        div {
+            width: 90%;
+            padding: 1rem;
+
+            h2 {
+                font-size: 2.2rem;
+                margin-bottom: 2rem;
+            }
+
+            p {
+                font-size: 1.4rem;
+                text-align: start;
+            }
+        }
+    }
 `

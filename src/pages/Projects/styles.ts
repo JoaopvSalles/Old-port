@@ -85,4 +85,23 @@ export const Container = styled.div`
             }
         }
     }
+
+
+    // ===== Responsivo ===== //
+    @media (max-width: 1024px) {
+
+        div {
+            width: 90%;
+            padding: 1rem;
+
+            h2 {
+                font-size: 2.2rem;
+            }
+
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
 `
