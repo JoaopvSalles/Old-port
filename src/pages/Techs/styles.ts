@@ -45,21 +45,37 @@ export const Container = styled.div`
 
 
     // ===== Responsivo ===== //
+    @media (max-width: 1650px) {
+        div.card {
+            width: 60%;
+
+            h2 {
+                font-size: 3.5rem;
+            }
+        }
+    }
+
+
     @media (max-width: 1024px) {
 
         div.card {
-            width: 90%;
+            width: 80%;
             padding: 1rem;
 
             h2 {
                 font-size: 2.2rem;
-                margin-bottom: 3rem;
+                margin-bottom: 4rem;
             }
 
             div.img {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 gap: 4rem;
+
+                img {
+                    height: 5rem;
+                    width: 5rem;
+                }
             }
         }
     }

@@ -56,6 +56,38 @@ export const Container = styled.header`
 
     // ===== Responsivo ===== //
     @media (max-width: 1024px) {
-        
+        /* ::after {
+            content: '≡';
+            position: fixed;
+            z-index: 2;
+            top: 1rem;
+            right: 1rem;
+            background: var(--blue-700);
+            color: white;
+            font-size: 3rem;
+            line-height: 3rem;
+            width: 3rem;
+            height: 3rem;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 5px 10px 0 rgb(0 0 0 / 50%);
+            border: 2px solid rgba(114,114,126,.2);
+        } */
+
+        div {
+
+            h1 {
+                a {
+                    font-size: 1.5rem;
+                }
+            }
+
+            nav {
+                a {
+                    font-size: 1rem;
+                }
+            }
+        }
     }
 `

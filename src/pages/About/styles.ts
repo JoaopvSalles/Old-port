@@ -38,6 +38,19 @@ export const Container = styled.div`
 
 
     // ===== Responsivo ===== //
+    @media (max-width: 1650px) {
+        div {
+
+            h2 {
+                font-size: 3.5rem;
+            }
+
+            p {
+                text-align: start;
+            }
+        }
+    }
+
     @media (max-width: 1024px) {
         
         div {

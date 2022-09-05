@@ -88,6 +88,29 @@ export const Container = styled.div`
 
 
     // ===== Responsivo ===== //
+    @media (max-width: 1650px) {
+
+        div {
+            width: 85%;
+
+            h2 {
+                font-size: 3.5rem;
+            }
+
+            nav {
+                
+                a {
+                    width: 15rem;
+
+                    img {
+                        width: 15rem;
+                    }
+                }
+            }
+        }
+    }
+
+
     @media (max-width: 1024px) {
 
         div {
@@ -101,6 +124,14 @@ export const Container = styled.div`
             nav {
                 display: flex;
                 flex-direction: column;
+
+                a {
+                    width: 18rem;
+
+                    img {
+                        width: 18rem;
+                    }
+                }
             }
         }
     }

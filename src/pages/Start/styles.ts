@@ -66,8 +66,30 @@ export const Container = styled.div`
 
 
     // ===== Responsivo ===== //
-    @media (max-width: 1600px) {
+    @media (max-width: 1650px) {
 
+        div {
+            width: 70%;
+            justify-content: space-around;
+            
+            span {
+                margin-bottom: 2rem;
+                margin-right: 2rem;
+                font-size: 1.5rem;
+
+                nav {
+                    
+                    strong {
+                        font-size: 3rem;
+                    }
+                }
+            }
+
+            img {
+                width: 18rem;
+                height: 18rem;
+            }
+        }
     }
 
 
@@ -82,6 +104,7 @@ export const Container = styled.div`
 
             span {
                 margin-bottom: 2rem;
+                margin-right: 0;
                 font-size: 1.5rem;
 
                 nav {
