@@ -57,13 +57,14 @@ export const Container = styled.div`
 
 
     @media (max-width: 1024px) {
+        width: 90%;
 
         div.card {
             width: 80%;
             padding: 1rem;
 
             h2 {
-                font-size: 2.2rem;
+                font-size: 2rem;
                 margin-bottom: 4rem;
             }
 
@@ -73,8 +74,8 @@ export const Container = styled.div`
                 gap: 4rem;
 
                 img {
-                    height: 5rem;
-                    width: 5rem;
+                    height: 4rem;
+                    width: 4rem;
                 }
             }
         }

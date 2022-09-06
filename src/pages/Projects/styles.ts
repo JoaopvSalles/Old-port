@@ -112,13 +112,14 @@ export const Container = styled.div`
 
 
     @media (max-width: 1024px) {
+        width: 90%;
 
         div {
             width: 90%;
             padding: 1rem;
 
             h2 {
-                font-size: 2.2rem;
+                font-size: 2rem;
             }
 
             nav {
@@ -126,10 +127,10 @@ export const Container = styled.div`
                 flex-direction: column;
 
                 a {
-                    width: 18rem;
+                    width: 16rem;
 
                     img {
-                        width: 18rem;
+                        width: 16rem;
                     }
                 }
             }
