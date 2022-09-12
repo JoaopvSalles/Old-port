@@ -10,7 +10,7 @@ export function Start() {
                     <nav>
                         Olá! 👋🏻 Me chamo <br />
                         <strong>João Paulo</strong> <br />
-                        Desenvolvedor Front-end. <br />
+                        Desenvolvedor Web e Mobile. <br />
                     </nav>
                     <a href="https://www.linkedin.com/in/jo%C3%A3o-vecchio-175934130/" target="_blank">LinkedIn</a> <br />
                     <a href="https://github.com/JoaopvSalles" target="_blank">Github</a>
