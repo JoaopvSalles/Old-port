@@ -608,7 +608,7 @@ Error generating stack: `+o.message+`
         }
         
     }
-`;function Gm(){return O(Wm,{id:"start",children:Ce("div",{children:[Ce("span",{children:[Ce("nav",{children:["Ol\xE1! \u{1F44B}\u{1F3FB} Me chamo ",O("br",{}),O("strong",{children:"Jo\xE3o Paulo"})," ",O("br",{}),"Desenvolvedor Front-end. ",O("br",{})]}),O("a",{href:"https://www.linkedin.com/in/jo%C3%A3o-vecchio-175934130/",target:"_blank",children:"LinkedIn"})," ",O("br",{}),O("a",{href:"https://github.com/JoaopvSalles",target:"_blank",children:"Github"})]}),O("img",{src:Qm,alt:"Foto"})]})})}const Ym=gm`
+`;function Gm(){return O(Wm,{id:"start",children:Ce("div",{children:[Ce("span",{children:[Ce("nav",{children:["Ol\xE1! \u{1F44B}\u{1F3FB} Me chamo ",O("br",{}),O("strong",{children:"Jo\xE3o Paulo"})," ",O("br",{}),"Desenvolvedor Web e Mobile. ",O("br",{})]}),O("a",{href:"https://www.linkedin.com/in/jo%C3%A3o-vecchio-175934130/",target:"_blank",children:"LinkedIn"})," ",O("br",{}),O("a",{href:"https://github.com/JoaopvSalles",target:"_blank",children:"Github"})]}),O("img",{src:Qm,alt:"Foto"})]})})}const Ym=gm`
  
   * {
     margin: 0;
